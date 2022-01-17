@@ -1,0 +1,37 @@
+.checkout {
+    width: 360px;
+    height: 214px;
+    background: #F5F3F3;
+    margin-top: 180px;
+    &__text {
+        padding-top: 39px;
+        padding-right: 34px;
+        text-align: right;
+        &--sub {
+            font-size: 11px;
+            line-height: 13px;
+            color: #4A4A4A;
+        }
+        &--grand {
+            font-size: 16px;
+            line-height: 19px;
+            color: #222222;
+            margin-top: 12px;
+          }
+    }
+    &__line {
+        margin: 21px 43px 0;
+        background: #E2E2E2;
+      }
+      &__button {
+        padding: 15px 43px 16px 41px;
+        border: none;
+        background: #F16D7F;
+        color: #FFFFFF;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 17px;
+        margin-left: 44px;
+      }
+}

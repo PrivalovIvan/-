@@ -1,0 +1,19 @@
+.shipping {
+    &__data {
+        padding-top: 20px;
+        &--input {
+            padding: 13px 277px 16px 17px;
+            font-size: 13px;
+            line-height: 16px;
+            color: #B1B1B1;
+            padding-right: 65px;
+            margin-right: 68px;
+        }
+        &--inputlast {
+            padding: 10px 14px 12px 15px;
+            font-size: 13px;
+            line-height: 16px;
+            color: #B1B1B1;
+          }
+        }
+}

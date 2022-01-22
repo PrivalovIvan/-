@@ -1,0 +1,63 @@
+.registration {
+    height: 148px;
+    background-color: #F8F3F4;
+    &__uno {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        max-width: 1160px;
+        margin: 0 auto;
+    }
+    &__intro {
+        color: $color;
+    }
+    &__data {
+        padding-top: 64px;
+        max-width: 1160px;
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 96px;
+
+
+    }&__input {
+        padding: 13px 278px 16px 17px;
+        margin-top: 20px;
+    }
+    &__gender {
+        margin: 31px 0 33px;
+        padding-left: 10px;
+        &--block {
+            display: flex;
+        }
+    }
+    &__recommendation {
+        padding-top: 15px;
+    }
+    &__button {
+        padding: 16px 66px 17px 29px;
+        background-color: $color;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 39px;
+        cursor: pointer;
+        transition: all 1s;
+        &:active {
+            transform: scale(2);
+        }
+    }
+    &__loyalty {
+        max-width: 652px;
+        &--text {
+            font-size: 24px;
+            line-height: 29px;
+            padding-top: 17px;
+        }
+        &--header {
+            font-size: 24px;
+            line-height: 29px;
+            color: #000000;
+        }
+    }
+
+}

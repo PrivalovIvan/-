@@ -1,0 +1,32 @@
+.choice {
+    margin-top: 72px;
+    margin-bottom: 65px;
+
+    &__button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 652px;
+        &--left {
+            padding: 17px 41px 16px 39px;
+            border: 1px solid #A4A4A4;
+            background: #FFFFFF;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            cursor: pointer;
+          }
+        &--right {
+            padding: 17px 40px 16px 39px;
+            border: 1px solid #A4A4A4;
+            background: #FFFFFF;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            cursor: pointer;
+          }
+      }
+  }
